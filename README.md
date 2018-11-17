@@ -1,26 +1,12 @@
 # Attila
 
-A content focused responsive theme for [Ghost](http://github.com/tryghost/ghost/).
+A content focused responsive theme for [Ghost](http://github.com/tryghost/ghost/) forked from [zutrinken/attila](https://github.com/zutrinken/attila) and optimized for [SlashDeploy](https://getslashdeploy.com) brand.
 
 ## Demo
 
-* [Blog](http://attila.zutrinken.com/)
-* [Post](http://attila.zutrinken.com/demo/)
-* [Tag Archive](http://attila.zutrinken.com/tag/general/)
-* [Author Archive](http://attila.zutrinken.com/author/zutrinken/)
-
-## Screenshots
-
-<table>
-<tr>
-<td valign="top">
-<img src="https://raw.githubusercontent.com/zutrinken/attila/master/src/screenshot-desktop.jpg" />
-</td>
-<td valign="top">
-<img src="https://raw.githubusercontent.com/zutrinken/attila/master/src/screenshot-mobile.jpg" />
-</td>
-</tr>
-</table>
+* [Blog](https://getslashdeploy.com/blog/)
+* [Tag Archive](https://getslashdeploy.com/blog/tag/chatops/)
+* [Author Archive](https://getslashdeploy.com/blog/author/tair/)
 
 ## Features
 
@@ -35,10 +21,6 @@ A content focused responsive theme for [Ghost](http://github.com/tryghost/ghost/
 * Subscribers support
 * Sharing buttons
 
-## Setup
-
-To enable [Disqus](https://disqus.com/) comments go to your blogs code injection settings and add `<script>var disqus = 'YOUR_DISQUS_SHORTNAME';</script>` to your blog header.
-
 ## Development
 
 Install [Grunt](http://gruntjs.com/getting-started/):
@@ -49,10 +31,10 @@ Install Grunt dependencies:
 
 	npm install
 
-Build Grunt project:
+Build Ghost theme and upload generated ZIP file:
 
-	grunt build
+	./build.sh
 
 ## Copyright & License
 
-Copyright (C) 2015-2018 Peter Amende - Released under the [MIT License](https://github.com/zutrinken/attila/blob/master/LICENSE).
+Copyright (C) 2015-2018 Peter Amende, Tair Assimov - Released under the [MIT License](https://github.com/zutrinken/attila/blob/master/LICENSE).
