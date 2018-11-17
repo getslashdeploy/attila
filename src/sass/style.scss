@@ -488,6 +488,10 @@ img[src$="#full"] {
 	}
 }
 
+.code {
+	font-family: 'Roboto Mono', monospace;
+}
+
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -570,7 +574,6 @@ img[src$="#full"] {
 	text-decoration: none;
 }
 .blog-name .code {
-	font-family: 'Roboto Mono', monospace;
 	color: $color-yellow-80;
 }
 .home-template .blog-name {
@@ -1449,6 +1452,44 @@ img[src$="#full"] {
 	margin: 0;
 	font-size: 0.75em;
 	line-height: 1.334em;
+}
+
+/* ==========================================================================
+   Post CTA
+   ========================================================================== */
+.post-signup {
+	background: #F8F9FB;
+	border-radius: 4px;
+	text-align: center;
+	margin-top: 40px;
+	padding: 60px 20px;
+}
+
+.post-signup h3 {
+	margin: 0 0 20px 0;
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: 400;
+}
+
+.post-signup .button {
+	background: $color-yellow-100;
+	color: #FFFFFF;
+	font-weight: 500;
+	box-shadow: 0 1px 1px 0 rgba(19,31,21,0.1);
+	transition: all 0.3s ease-in-out 0s;
+	border-radius: 4px;
+	padding: 0 30px;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: inline-block;
+	height: 46px;
+	line-height: 44px;
+	font-size: 0.9em;
+}
+
+.post-signup .button:hover {
+	background: $color-yellow-80;
 }
 
 /* ==========================================================================
